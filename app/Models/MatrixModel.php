@@ -21,5 +21,24 @@
     
             return $matrix;
         }
+
+        public function generateXMatrix($size){
+            $matrix = array();
+            for ($i=0; $i < $size; $i++) { 
+                $row = array();
+                for ($j=0; $j < $size; $j++) { 
+                    if ($i == $j || $i == ($size - $j - 1)) 
+                    {
+                        $row[] = "x";
+                    }
+                    else
+                    {
+                        $row[] = ".";
+                    }
+                }
+                $matrix[] = $row;
+            }
+            return $matrix;
+        }
     }
 ?>

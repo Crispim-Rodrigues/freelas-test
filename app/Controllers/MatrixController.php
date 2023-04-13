@@ -5,10 +5,19 @@
     
     class MatrixController
     {
-        public function generateMatrix($size = 5)
+        public function generateCrossMatrix($size = 5)
         {
             $matrixModel = new MatrixModel();
             $matrix = $matrixModel->generateCrossMatrix($size);
+    
+            $matrixView = new MatrixView($matrix);
+            
+            $matrixView->render();
+        }
+        public function generateXMatrix($size = 5)
+        {
+            $matrixModel = new MatrixModel();
+            $matrix = $matrixModel->generateXMatrix($size);
     
             $matrixView = new MatrixView($matrix);
             

@@ -8,7 +8,8 @@ $controller = new MatrixController();
 
 $size = isset($_GET['size']) ? $_GET['size'] : 5;
 
-$controller->generateMatrix($size);
+$controller->generateCrossMatrix($size);
+$controller->generateXMatrix($size);
 
 
 
