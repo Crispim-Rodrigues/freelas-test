@@ -1,4 +1,14 @@
 {
+    "name": "crispim/teste",
+    "description": "Projeto test para frellancer",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Crispim dos Reis Rodrigues",
+            "email": "crispim.rodrigues.oficial@gmail.com"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "App\\": "app"
