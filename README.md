@@ -18,7 +18,7 @@ git clone https://github.com/Crispim-Rodrigues/freelas-test.git
 
 * Entre no diretorio do projeto:
 ~~~cmd
-cd frellas-test
+cd freelas-test
 ~~~
 
 * Instale as dependencias com o composer:
@@ -29,7 +29,7 @@ composer install
 ### **Estrutura de pastas do projeto**
 
 ~~~cmd
-/frellas-test
+/freelas-test
     /app
         /Controllers
         /Models
@@ -47,13 +47,13 @@ Você pode executar o projeto de duas formas, uma é pelo proprio XAMPP e a outr
 
   * Inicie o servidor apache.
   * Abra o seu navegador de sua preferencia.
-  * Na url da barra de navegação coloque "localhost/frellas-test/public/" ou navegue manualmente pelo "localhost".
+  * Na url da barra de navegação coloque "localhost/freelas-test/public/" ou navegue manualmente pelo "localhost".
   
 #### 1.1 **Para mudar o tamanho da Matrix é preciso definir o size na url.**
 
    * url: 
 
-(http://localhost/frellas-test/public/index.php?size=5) // o tamanho padrão é 5
+(http://localhost/freelas-test/public/index.php?size=5) // o tamanho padrão é 5
 
 ### 2. **Utilizando o cmd**
 
